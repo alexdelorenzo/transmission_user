@@ -1,6 +1,6 @@
 # transmission_user.sh
 Change the user of the `transmission-daemon` in Debian/Ubuntu.
-Debian based distrobutions run `transmission-daemon` with the user `debian-transmission`.
+Debian based distributions run `transmission-daemon` with the user `debian-transmission`.
 
 ```
    user@host:~$ ps aux | grep transmission
