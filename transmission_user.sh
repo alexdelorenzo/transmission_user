@@ -2,7 +2,8 @@
 
 CONF="/etc/init/transmission-daemon.conf"
 #declare -a CONFIG_DIRS
-CONFIG_DIRS={"/var/lib/transmission-daemon","/etc/transmission-daemon"}
+CONFIG_DIRS="/var/lib/transmission-daemon
+/etc/transmission-daemon"
 
 NAME="$0"
 USER="$1"
